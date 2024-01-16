@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1><span id="title1">Naruto Uzumaki</span> <span id="title2">V/S</span> Itachi Uchiha</h1>
+        <div class="msgbox hide">
+            <p id="msg">Winner</p>
+            <button id="newbtn">New Game</button>
+        </div>
+        <div class="container">
+            <div id="p1">
+                <img src="./resources/naruto.png" height="500px">
+            </div>
+            <div class="game">
+                <!-- 9 Box GRID -->
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+            <div id="p2">
+                <img src="./resources/itachi.png" height="510px">
+            </div>
+        </div>
+        <button id="resetbtn">Reset Game</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
